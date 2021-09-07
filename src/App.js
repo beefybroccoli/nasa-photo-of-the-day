@@ -2,11 +2,13 @@ import React from "react";
 import "./App.css";
 import PhotoFrame from "./component/PhotoFrame";
 import { cb_get_today_date_string } from "./component/constant";
+import styled from "styled-components";
 
 export default function App() {
-  // const sample_date = "2021-08-20";
-
-  console.log("cb_get_today_date_string() return", cb_get_today_date_string());
+  const DIV_Flex = styled.div`
+    display: flex;
+    flex-direction: row;
+  `;
   return (
     <div className="App">
       <p>
@@ -16,8 +18,10 @@ export default function App() {
         </span>
         !
       </p>
-
-      <PhotoFrame input_date={cb_get_today_date_string()} />
+      <DIV_Flex>
+        <PhotoFrame input_date={cb_get_today_date_string()} />
+        <PhotoFrame input_date={cb_get_today_date_string()} />
+      </DIV_Flex>
     </div>
   );
 }

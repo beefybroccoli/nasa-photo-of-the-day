@@ -9,16 +9,15 @@ export default function PhotoFrame(props) {
   const [stateError, set_stateError] = useState(null);
   const [stateObject, set_stateObject] = useState(null);
   const [stateLoading, set_stateLoading] = useState(null);
-  const [user_pick_date, set_user_pick_date] = useState(null);
+  const [stateUserPickDate, set_stateUserPickDate] = useState(null);
 
   const cb_onChange = (event) => {
-    set_user_pick_date(event.target.value);
-    console.log("user_pick_date = ", user_pick_date);
+    set_stateUserPickDate(event.target.value);
   };
 
   const cb_onSubmit = (event) => {
     event.preventDefault();
-    set_stateInputDate(user_pick_date);
+    set_stateInputDate(stateUserPickDate);
   };
 
   useEffect(() => {
@@ -42,16 +41,16 @@ export default function PhotoFrame(props) {
 
   const DIV_PhotoFrame = styled.div`
     border: 1px black solid;
-    width: 90%;
-    margin: 5%;
+    width: 50%;
+    margin: 1%;
   `;
 
   return (
     <DIV_PhotoFrame>
       <form onSubmit={cb_onSubmit}>
         <input
-          name={user_pick_date}
-          value={user_pick_date}
+          name={stateUserPickDate}
+          value={stateUserPickDate}
           onChange={cb_onChange}
           type="date"
           min="2000-01-01"

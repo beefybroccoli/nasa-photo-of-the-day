@@ -13,7 +13,7 @@ export default function Photo(props) {
 
   const Img = styled.img`
     width: 100%;
-    height: 70vh;
+    height: 50vh;
   `;
 
   const Span_Label = styled.span`
