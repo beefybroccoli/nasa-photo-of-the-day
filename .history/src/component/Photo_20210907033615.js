@@ -6,8 +6,8 @@ import styled from "styled-components";
  * @returns Photo component
  */
 export default function Photo(props) {
-  //destructruing values from props.input_object
-  const { copyright, date, explanation, hdurl, title } = props.input_object;
+  const { copyright, date, explanation, hdurl, title, url } =
+    props.input_object;
 
   const DivPhoto = styled.div``;
 
@@ -50,7 +50,6 @@ export default function Photo(props) {
 }
 
 /*
-sample data
 {
     "copyright": "Balint Lengyel",
     "date": "2021-08-20",

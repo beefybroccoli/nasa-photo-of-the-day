@@ -12,30 +12,35 @@ export default function PhotoFrame(props) {
   const [stateUserPickDate, set_stateUserPickDate] = useState(null);
 
   const cb_onChange = (event) => {
+    //update stateUserPickDate
     set_stateUserPickDate(event.target.value);
   };
 
   const cb_onSubmit = (event) => {
     event.preventDefault();
+    //change the stateInputDate when user click "submit"
     set_stateInputDate(stateUserPickDate);
   };
 
   useEffect(() => {
+    //set stateObject to null
     set_stateObject(null);
+    //set stateLoading to true
     set_stateLoading(true);
     axios
       .get(API_URL + stateInputDate)
       .then((response) => {
-        // console.log("response.data = ", response.data);
+        //store data from API in stateObject
         set_stateObject(response.data);
       })
       .catch((error) => {
+        //store error in stateError
         set_stateError(error);
       });
   }, [stateInputDate]);
 
   useEffect(() => {
-    // console.log("stateObject = ", stateObject);
+    //set stateLoading to false after loading completion
     stateObject && set_stateLoading(false);
   }, [stateObject]);
 
