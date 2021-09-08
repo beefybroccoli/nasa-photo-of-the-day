@@ -17,6 +17,6 @@ _Use Promise.all to resolve an array of promises.
 ``````````````````Installation instruction`````````````````
 
 ===========================================================
-`````````````````Import instruction```````````````````````
+Import instruction
 
 

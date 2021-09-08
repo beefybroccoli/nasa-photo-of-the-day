@@ -14,9 +14,9 @@ _Create a helper function in separate module to remove unneeded information from
 _Use Promise.all to resolve an array of promises. 
 
 ===========================================================
-``````````````````Installation instruction`````````````````
+Installation instruction
 
 ===========================================================
-`````````````````Import instruction```````````````````````
+Import instruction
 
 
