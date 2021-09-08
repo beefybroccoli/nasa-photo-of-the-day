@@ -1,9 +1,9 @@
-Task Set 2:
-_bootstrap - bootstrap in React Application
-_styled component - styled_components 
-_reactstrap - style react component using Reactstrap
-_keyframe animation
-_global theme
+Task Set 2
+bootstrap - bootstrap in React Application
+styled component - styled_components 
+reactstrap - style react component using Reactstrap
+keyframe animation
+global theme
 
 
 Tasks Set 1:

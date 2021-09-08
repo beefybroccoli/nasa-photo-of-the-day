@@ -1,12 +1,11 @@
-Task Set 2:
-_bootstrap - bootstrap in React Application
-_styled component - styled_components 
-_reactstrap - style react component using Reactstrap
-_keyframe animation
-_global theme
+bootstrap - bootstrap in React Application
+styled component - styled_components 
+reactstrap - style react component using Reactstrap
+keyframe animation
+global theme
 
 
-Tasks Set 1:
+Tasks:
 _consume another NASA API
 _Create transitions or animations with styled-components. 
 _Create a helper function in separate module to remove unneeded information from the API data, before putting it in state. 

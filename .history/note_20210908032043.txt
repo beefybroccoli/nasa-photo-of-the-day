@@ -1,0 +1,16 @@
+bootstrap - bootstrap in React Application
+styled component - styled_components 
+reactstrap - style react component using Reactstrap
+keyframe animation
+global theme
+
+
+Create a helper function in separate module to remove unneeded information from the API data, before putting it in state. 
+
+Create transitions or animations with styled-components. 
+
+Use Promise.all to resolve an array of promises. 
+
+Make the Character component more complex and break it into several subcomponents. 
+
+consume another NASA API
