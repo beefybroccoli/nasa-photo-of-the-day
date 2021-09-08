@@ -13,5 +13,3 @@ Create transitions or animations with styled-components.
 Use Promise.all to resolve an array of promises. 
 
 Make the Character component more complex and break it into several subcomponents. 
-
-consume another NASA API

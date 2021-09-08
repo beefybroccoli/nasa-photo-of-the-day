@@ -11,7 +11,3 @@ Create a helper function in separate module to remove unneeded information from 
 Create transitions or animations with styled-components. 
 
 Use Promise.all to resolve an array of promises. 
-
-Make the Character component more complex and break it into several subcomponents. 
-
-consume another NASA API
