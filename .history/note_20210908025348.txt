@@ -1,8 +1,0 @@
-bootstrap - bootstrap in React Application
-styled component - styled_components 
-reactstrap - style react component using Reactstrap
-
-global theme
-local styling
-keyframe animation
-

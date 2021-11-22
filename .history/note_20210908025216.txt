@@ -1,5 +1,0 @@
-bootstrap in React Application
-styled_components 
-style react component using Reactstrap
-global theme
-
